@@ -1,10 +1,14 @@
 # hash_cracker
 This is a simple hash_cracker which can crack md5 and sha-1 hashes.
-## To compile and run this program
+## To build this program
 ```
-cargo run <wordlist.txt> <hash> <hash_type_number>
+cargo build && cd target/debug
+```
+## To run this program
+```
+./hash_cracker <wordlist.txt> <hash> <hash_type_number>
 ```
 ## For help 
 ```
-cargo run help
+./hash_cracker help
 ```
